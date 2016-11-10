@@ -27,6 +27,10 @@ img {
   width: 100px;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 
 .btn {
   display: inline-block;
@@ -48,17 +52,17 @@ img {
 }
 
 .anderon {
-  background-color: #f2f2f2;
-}
-
-.knights {
   background-color: #e2e2e2;
 }
 
-.dragon {
+.knights {
   background-color: #ccc;
 }
 
+.dragon {
+  background-color: #aaa;
+}
+
 .ships {
-  background: #aaa;
+  background: #999;
 }
