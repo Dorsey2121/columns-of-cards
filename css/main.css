@@ -1,7 +1,50 @@
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  text-align: center;
+}
+
+div {
+  float: left;
+  width: 25%;
+  border: solid black .1em;
+  padding: 1em;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+
+.btn {
+  display: block;
+  color: #fff;
+  background-color: #333;
+}
+
+.anderon {
+  background-color: #e2e3e3;
+}
+
+.knights {
+  background-color: #cbcccb;
+}
+
+.dragon {
+  background-color: #acacac;
+}
+
+.ships {
+  background: #999999;
 }
