@@ -11,12 +11,13 @@ header {
   text-align: center;
 }
 
-div {
+.cards{
   float: left;
   width: 25%;
   border: solid black .1em;
   padding: 1em;
   overflow: hidden;
+  height: 30em;
 }
 
 img {
@@ -28,23 +29,36 @@ img {
 
 
 .btn {
-  display: block;
-  color: #fff;
+  display: inline-block;
   background-color: #333;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  color: #fff;
+  border-radius: 8px;
+  border: 3px black solid;
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .anderon {
-  background-color: #e2e3e3;
+  background-color: #f2f2f2;
 }
 
 .knights {
-  background-color: #cbcccb;
+  background-color: #e2e2e2;
 }
 
 .dragon {
-  background-color: #acacac;
+  background-color: #ccc;
 }
 
 .ships {
-  background: #999999;
+  background: #aaa;
 }
