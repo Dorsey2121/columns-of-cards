@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -11,13 +11,19 @@ header {
   text-align: center;
 }
 
-.cards{
+h2 {
+  font-size: 2rem;
+}
+
+.cards {
   float: left;
   width: 25%;
   border: solid black .1em;
   padding: 1em;
   overflow: hidden;
   height: 30em;
+  line-height: 1.5;
+  font-size: .875rem;
 }
 
 img {
@@ -29,8 +35,8 @@ img {
 
 body {
   background-color: #f2f2f2;
+  margin: 0;
 }
-
 
 .btn {
   display: inline-block;
